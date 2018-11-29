@@ -31,7 +31,3 @@ redis 序列化
     反序列化失败
 #  case by:
     shiro采用jackson序列化出错，网上有篇类似博客，采用 jdk序列化           
-#  backGround:
-    采用jdk 序列化，@Cacheable 注解标记字典缓存 
-#   case by:
-    该service返回值为PageResult<Dictionary> 泛型，大胆猜测是因为未固定类型所致，改变返回值，相信查阅泛型相关后，会有更深一步了解
