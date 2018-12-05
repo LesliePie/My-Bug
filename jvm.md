@@ -16,7 +16,7 @@
     > * 避免了核心类（java.lang）的替换和重复加载，相同的class被不同的ClassLoader加载就是两个类，转型会抛出java.lang.ClassCaseException 
 *   结构:
     > * Bootstrap classLoader 最顶层父类加载器，C/C++编写，加载核心类 java.lang.*
-    > * Extension classLoader 加载器由sun.misc.Launcher$ExtClassLoader实现，它负责加载DK\jre\lib\ext目录中相关类,如 javax.*
+    > * Extension classLoader 加载器由sun.misc.Launcher$ExtClassLoader实现，它负责加载JDK\jre\lib\ext目录中相关类,如 javax.*
     > * Application ClassLoader 该类加载器由sun.misc.Launcher$AppClassLoader来实现，它负责加载用户类路径（ClassPath）所指定的类，开发者可以直接使用该类加载器
 * * *       
 ## jvm结构
