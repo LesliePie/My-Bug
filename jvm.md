@@ -21,7 +21,7 @@
 * * *       
 ## jvm结构
 * 结构图
-    >![结构图](https://segmentfault.com/img/bVmxl8)
+    >![结构图](https://camo.githubusercontent.com/0f136629b1032b8ca6cb159d902ed76c461aeffa/68747470733a2f2f7365676d656e746661756c742e636f6d2f696d672f62566d786c38)
 * PC计数器（PC Register）
     >一块较小的内存空间，可以看做是当前线程所执行的字节码的行号指示器, NAMELY存储每个线程下一步将执行的JVM指令，如该方法为native的，则PC寄存器中不存储任何信息。
     Java 的多线程机制离不开程序计数器，每个线程都有一个自己的PC，以便完成不同线程上下文环境的切换
