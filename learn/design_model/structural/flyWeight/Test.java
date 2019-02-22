@@ -21,5 +21,6 @@ public class Test {
         nd5.use(new Port("1004"));
         System.out.println("Total Device:" + df.getTotalDevice());
         System.out.println("Total Terminal:" + df.getTotalTerminal());
+        System.gc();
     }
 }
