@@ -10,6 +10,7 @@
     $ tar xzf redis-4.0.10.tar.gz
     打开redis解压后包
     cd redis-4.0.10
+    
     make 
     make install
     至此，redis安装完成
@@ -35,4 +36,3 @@
     https://help.aliyun.com/document_detail/43850.html?spm=a2c4g.11186623.6.572.k7uuRY
     注意事项，ecs服务开启安全组规则6379即可
       
-    
